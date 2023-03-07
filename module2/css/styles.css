@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0 20px 0;
+    font-size: 175%;
+}
+
+#menu {
+    overflow: hidden;
+}
+
+.item {
+    float: left;
+}
+
+.item-box {
+    border: 1px solid black;
+    margin: 15px;
+    background-color: #fff8b6;
+}
+
+.item-title {
+    position: relative;
+    top: 0;
+    right: 5px;
+    float: right;
+    width: 200px;
+    text-align: center;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 125%;
+}
+
+.item-box, .item-title {
+    border-radius: 20px;
+}
+
+#menu #item1 .item-title {
+    background-color: #f0dabd;
+    color: #6b1313;
+}
+
+#menu #item2 .item-title {
+    background-color: #87deb4;
+    color: deeppink;
+}
+
+#menu #item3 .item-title {
+    background-color: #87a8de;
+    color: beige;
+}
+
+.item-content {
+    clear: right;
+    padding: 10px;
+    text-align: justify;
+}
+
+@media (min-width: 992px) {
+    .item {
+        width: 33.33%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .item {
+        width: 50%;
+    }
+
+    div#menu .item:last-child {
+        width: 100%;
+    }
+}
