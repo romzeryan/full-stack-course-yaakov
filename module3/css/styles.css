@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#navbarContainer {
+    background-color: #c2c2c2;
+}
+
+.background-descent {
+    background-color: beige;
+}
