@@ -1,13 +1,26 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 #navbarContainer {
     background-color: #c2c2c2;
 }
 
+#our-menu {
+    background-color: #dddcdc;
+}
+
 .background-descent {
     background-color: beige;
+}
+
+.row > div { /* Menu item content */
+    position: relative;
+}
+
+.row > div > a { /* Back to top link */
+    background-color: #e48e8e;
+    opacity: .7;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
